@@ -1,0 +1,40 @@
+name: https
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cronet_http: ^1.0.0
+#استفاده از  Cronet که یکی از ابزار های گوگله
+  cupertino_http: ^2.0.0
+#برای سیستم عامل ios
+  cupertino_icons: ^1.0.2
+#آیکون های جالب
+  fetch_client: ^1.0.2
+#  برای API
+  http: ^1.0.0
+#  برای اتصال به اینترنت و ارسال درخواست های HTTP
+  http_image_provider: ^1.0.0
+#مدیریت و بارگیری مستقیم عکس از HTTP
+  provider: ^6.0.5
+#مدیریت پروژه
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  test: ^1.21.1
+  dart_flutter_team_lints: ^3.0.0
+  integration_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
